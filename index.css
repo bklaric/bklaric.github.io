@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px;
+    line-height: 1.5;
+    max-width: 650px;
+    margin: auto;
+}
+
+ul {
+    list-style: disc inside;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+li {
+    margin: 2px 0;
+}
+
+.name {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.contacts {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.contacts .contacts-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.contacts .contacts-link:hover {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.heading {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 32px
+}
+
+.job {
+    margin-top: 12px;
+}
+
+.job:not(:first-of-type) {
+    margin-top: 24px;
+}
+
+.project:not(:first-of-type) {
+    margin-top: 24px;
+}
+
+.position-company {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.position-company-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.position-company-link:hover {
+    text-decoration: underline;
+}
+
+.external-link-icon {
+    fill: currentColor;
+    width: 16px;
+    height: 16px;
+}
+
+.timeframe {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.techs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    line-height: 1;
+    gap: 4px;
+}
+
+.tech {
+    color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 3px 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
